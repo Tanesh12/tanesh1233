@@ -1,0 +1,8 @@
+def solution(A):
+    distinct_values = set()
+
+    for num in A:
+        distinct_values.add(abs(num))
+
+    return len(distinct_values)
+
